@@ -34,7 +34,9 @@ class HCOTimelineViewController: UIViewController, UITableViewDelegate, UITableV
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("HCOTweetCell") as HCOTweetCell
         
-        cell.userNameLabel.text = "Username"
+    
+        
+        cell.userNameLabel.text = "Name"
         cell.userScreenNameLabel.text = "ScreenName"
         cell.timeLabel.text = "hh"
         

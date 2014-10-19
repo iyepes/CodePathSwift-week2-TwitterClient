@@ -80,7 +80,6 @@ class HCOTwitterAPIConsumer: BDBOAuth1RequestOperationManager {
                 println("Error accessing token")
                 self.loginCompletion?(user: nil, error: error)
         }
-        
-        
     }
+    
 }
